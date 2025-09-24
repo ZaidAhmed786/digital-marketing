@@ -363,7 +363,7 @@
     });
 
     // Resize event is available only for 'window'
-    // Use another code solutions to detect DOM elements resizing
+    // Use another code Solutionss to detect DOM elements resizing
     $element.on('resize.' + PLUGIN_NAME, function() {
       if (settings.resizing) {
         vide.resize();
